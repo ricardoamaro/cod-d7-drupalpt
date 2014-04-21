@@ -56,10 +56,6 @@ projects[commerce_features][type] = "module"
 projects[commerce_features][subdir] = "contrib"
 projects[commerce_features][version] = "1.0"
 
-projects[commerce_registration][type] = "module"
-projects[commerce_registration][subdir] = "contrib"
-projects[commerce_registration][version] = "2.0-beta5"
-
 projects[commerce_stock][type] = "module"
 projects[commerce_stock][subdir] = "contrib"
 projects[commerce_stock][version] = "2.0-rc1"
@@ -248,13 +244,6 @@ projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 
-projects[registration][type] = "module"
-projects[registration][subdir] = "contrib"
-projects[registration][download][type] = "git"
-projects[registration][download][url] = "http://git.drupal.org/project/registration.git"
-projects[registration][download][branch] = "7.x-1.x"
-projects[registration][download][revision] = "45715cf133594ba7c5efe3ae214d029f132f055c"
-
 projects[rules][type] = "module"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.6"
@@ -323,14 +312,13 @@ projects[webform][type] = "module"
 projects[webform][version] = "3.20"
 projects[webform][subdir] = "contrib"
 
-; Themes
-projects[adaptivetheme][type] = "theme"
-projects[adaptivetheme][version] = "3.1"
-projects[adaptivetheme][subdir] = "contrib"
-
-projects[sky][type] = "theme"
-projects[sky][version] = "3.0-rc1"
-projects[sky][subdir] = "contrib"
+; Contributed themes.
+projects[omega][type] = "theme"
+projects[omega][subdir] = "contrib"
+projects[omega][download][type] = "git"
+projects[omega][download][url] = "http://git.drupal.org/project/omega.git"
+projects[omega][download][branch] = "7.x-4.x"
+projects[omega][download][revision] = "3e00917a9843c3e2e0ad4bf8a68eef2dc4c34f09"
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
