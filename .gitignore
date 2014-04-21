@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Ignore configuration files that may contain sensitive information.
 
 # Ignore paths that contain user-generated content.
@@ -54,4 +53,3 @@ Thumbs.db
 ##########
 .sass-cache
 
->>>>>>> e9903368e01a092b86224b4d947322a29809cb3c
